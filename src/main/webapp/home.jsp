@@ -25,7 +25,7 @@
         <div class="col-sm-12">
             <div class="row">       
                 <%
-                    DecimalFormat fmt = new DecimalFormat("");
+                    DecimalFormat fmt = new DecimalFormat("#,##0 đ");
                     HoaDAO hoaDAO = new HoaDAO();
                     ArrayList<Hoa>  dsHoa = hoaDAO.getTop10(); //Lấy dữ liệu từ tầng DAL
                     for(Hoa x : dsHoa)

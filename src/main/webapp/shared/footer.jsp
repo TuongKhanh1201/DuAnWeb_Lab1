@@ -1,5 +1,5 @@
  <footer class="container">
-            <strong>&copy; 2023 - Student Name - Id </strong>
+            <strong>&copy; VoLeTuongKhanh </strong>
         </footer>
 
         <!-- Optional JavaScript -->
