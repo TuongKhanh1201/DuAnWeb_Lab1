@@ -79,7 +79,7 @@
         %>
     </table>
 
-    <ul class ="pagination justify-content-center">
+<!--    <ul class ="pagination justify-content-center">
         <%
             //lấy tổng sớ trang từ Servlet
             int sumOfPage = (int) request.getAttribute("sumOfPage");
@@ -90,9 +90,9 @@
             <%
                 }
             %>
-    </ul>
+    </ul>-->
 
-<!--    <ul class="pagination">
+    <ul class="pagination">
         <li class="page-item <%=pageIndex == 1 ? "disabled" : ""%>">
             <a class="page-link" href="ManageProduct?page=<%=pageIndex > 1 ? pageIndex - 1 : pageIndex%>">Previous</a></li>
             <%
@@ -106,6 +106,6 @@
             <a class="page-link" href="ManageProduct?page=<%=pageIndex<sumOfPage? pageIndex+1: pageIndex %>">Next</a></li>
         <li class="page-item <%=pageIndex==sumOfPage?"disabled":"" %>">
             <a class="page-link" href="ManageProduct?page=<%= sumOfPage %>">Last</a></li>
-    </ul>-->
+    </ul>
 
     <jsp:include page="../shared/footer.jsp" />
